@@ -1,0 +1,15 @@
+<div class="page full-width">
+  <h1>Resize your page</h1>
+  <p>pageHeight = {{ pageHeight }}</p>
+  <p>pageWidth = {{ pageWidth }}</p>
+
+  <div class="full-width">
+    <div
+      class="box-data"
+      [style.height]="displayHeight + 'px'"
+      [style.width]="displayWidth + 'px'"
+    >
+      <div class="screen-type">{{ screenType }}</div>
+    </div>
+  </div>
+</div>

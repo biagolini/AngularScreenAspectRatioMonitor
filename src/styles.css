@@ -1,0 +1,31 @@
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.full-width {
+  width: calc(100% - 5px);
+}
+
+.page {
+  margin: 5px;
+  color: #103060;
+  font-size: 15px;
+}
+
+.screen-type {
+  text-align: center;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: bold;
+}
+
+.box-data {
+  margin: auto;
+  border: 3px solid #103060;
+  background-color: rgb(224, 224, 224);
+  align-items: center;
+  justify-content: center;
+}
